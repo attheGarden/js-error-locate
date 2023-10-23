@@ -1,0 +1,10 @@
+source : ../../src/components/HelloWorld.vue, line: 10 
+
+const x = 12
+// @ts-ignore
+x = 11
+console.log(x)
+</script>
+
+<template>
+  <h1>{{ msg }}</h1>
